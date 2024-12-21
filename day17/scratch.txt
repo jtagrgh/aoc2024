@@ -1,0 +1,29 @@
+0: b=a as 8bit int
+1: flip b lsb
+2: c=(a >> b)
+3: a >> 3
+4: flip b 3rd lsb
+5: b=b xor c
+6: out b as 8bit int
+7: goto 0
+
+
+0: a >> 3
+1: b=(a&111^101^(a >> a&111^001))
+2: out b and goto 0
+
+0: a >> 3
+1: f(a)
+
+p must sat
+f(a)=2
+f(a>>3)=4
+f(a>>6)=1
+...
+
+b=f(a)=(a&0b111^0b101^(a>>(a&0b111^0b001)))
+
+b=a & 0b111^0b101^( a >>( a &0b111^0b001))
+
+
+f = lambda a: ((a&0b111^0b101^(a>>(a&0b111^0b001)))&0b111)
