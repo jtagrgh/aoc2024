@@ -1,0 +1,33 @@
+day21 † python3 part2.py
+A379A
+5
+A^A^^<<A>>AvvvA
+15
+A<A>A<AAv<AA>>^AvAA^A<vAAA^>A
+29
+v<<A>>^AvA^Av<<A>>^AA<vA<A>>^AAvAA<^A>A<vA^>AA<A>Av<<A>A^>AAA<Av>A^A
+68
+day21 † 
+
+    <    A  >  A   v  < <    A A  >   ^  A A  >  A   v   A A  ^  A    <  v   A A A  >   ^  A
+<v<A >>^A vA ^A <vA <A A >>^A A vA <^A >A A vA ^A <vA >^A A <A >A <v<A >A >^A A A vA <^A >A
+
+
+
+
+  ^  A    < <   ^ ^  A  > >  A   v v v   A
+<A >A v<<A A >^A A >A vA A ^A <vA A A >^A 
+
+A 37 9A
+
+theirs: ^A <<^^ A>>AvvvA
+mine:   ^A ^^<< A>>AvvvA
+
+              1030111011=9
+theirs: <A>A v<<AA>^AA>A vAA^A<vAAA>^A
+mine:   <A>A <AAv<AA>>^A vAA^A<vAAA^>A
+              3021301021=13
+
+theirs: <v<A>>^AvA^A <vA<AA>>^AAvA<^A>AAvA^A<vA>^AA<A>A<v<A>A     >^AAAvA<^A>A
+mine:   v<<A>>^AvA^A v<<A>>^AA<vA<A>>^AAvAA<^A>A<vA^>AA<A>Av<<A>A ^>AAA<Av>A^A
+
