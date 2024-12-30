@@ -1,4 +1,4 @@
-with open('test_input.txt','r') as f:
+with open('fixed_input.txt','r') as f:
    l=[x.strip() for x in f.readlines()]
 xor=lambda a,b: int((a and not(b)) or (not(a) and b))
 g={}
@@ -25,8 +25,4 @@ for x in g.keys():
     dfs(x)
 ks=sorted([k for k in h.keys() if k[0]=='z'])
 vs=''.join(reversed([str(h[k]) for k in ks]))
-i=len(vs)-1
-for x in vs:
-    print(f'{i}: {x}')
-    i-=1
-print()
+print(vs)

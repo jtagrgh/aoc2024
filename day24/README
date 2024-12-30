@@ -1,0 +1,4 @@
+part2.py doesn't solve the problem.
+
+I used explore_inputs.py to look at the gate map, and then corrected it by hand in fixed_input.txt.
+Then compare_inputs.py was used to compare the given input and the fixed input to produce the answer.
